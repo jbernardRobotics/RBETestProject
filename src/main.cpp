@@ -11,4 +11,7 @@ void loop()
   delay(1000);
   digitalWrite(2, LOW);
   delay(1000);
+
+  //This stuff is an addition with no conflicts
+  //I'm going to make another branch and write over these comments
 }
