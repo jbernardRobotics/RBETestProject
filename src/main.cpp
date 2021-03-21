@@ -9,6 +9,7 @@ void loop()
 {
   digitalWrite(2, HIGH);
   delay(1000);
+  //Here is a test comment that will conflict
   digitalWrite(2, LOW);
   delay(1000);
 
