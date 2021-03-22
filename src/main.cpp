@@ -21,6 +21,6 @@ void loop()
   delay(1000);
   Serial.println(String(helperTestFunction(2, 3)));
 
-  //This stuff is an addition with no conflicts
+  //This stuff is an addition with no conflicts TODO: make sure to use these todo statements to keep track of stuff
   //I'm going to make another branch and write over these comments
 }
