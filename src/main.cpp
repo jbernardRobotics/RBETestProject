@@ -5,6 +5,10 @@ void setup()
   // put your setup code here, to run once:
 }
 
+/**
+ *
+ *@param uselessValue1 this is a parameter for this helper function. Make sure to do a double star when you want this
+**/
 int helperTestFunction(int uselessValue1, int uselessValue2)
 {
   return uselessValue1 * uselessValue2;
@@ -23,4 +27,9 @@ void loop()
 
   //This stuff is an addition with no conflicts TODO: make sure to use these todo statements to keep track of stuff
   //I'm going to make another branch and write over these comments!
+  //! this is an alert - Dont do something/something is broken
+  //TODO: this is a todo. We should make gitIssues for these things if we want to
+  //? This is a question. Someone could leave this for themselves or others
+  //*Important stuff is this cool mint color
+  //
 }
