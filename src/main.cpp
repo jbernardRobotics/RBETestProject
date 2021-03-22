@@ -5,6 +5,11 @@ void setup()
   // put your setup code here, to run once:
 }
 
+int helperTestFunction(int uselessValue1, int uselessValue2)
+{
+  return uselessValue1 * uselessValue2;
+}
+
 void loop()
 {
   digitalWrite(2, HIGH);
@@ -14,6 +19,7 @@ void loop()
   //Blah Blah, Blah Main
   digitalWrite(2, LOW);
   delay(1000);
+  Serial.println(String(helperTestFunction(2, 3)));
 
   //This stuff is an addition with no conflicts
   //I'm going to make another branch and write over these comments
